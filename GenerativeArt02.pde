@@ -5,12 +5,14 @@ float noiseStrength = 9;
 float step = 1;
 float noiseZ = 0.001;
 float bright = 30;
+//float bright = 25;
 
 void setup(){
   size(1292,1428);
+  //size(1080,1080);
   colorMode(HSB, 360, 100, 100, 100);
-  //img = loadImage("Kyoujurou1.png");  
   img = loadImage("Kyoujurou.png");  //大小是646x714
+  //img = loadImage("inosuke.jpg");  //大小是1080x1080
   noStroke();
   initialize();
 }
@@ -29,7 +31,7 @@ void newParticles(){
   for(int j = 0;j < height;j++){
     for(int i = 0;i < width;i++){
       color c = get(i,j);  //获取像素点的颜色
-      if(brightness(c) < bright){  //如果像素点的明度小于10
+      if(brightness(c) < bright){  //如果像素点的明度小于bright
         particles.add(new Particle(i,j));  //那么在该点生成一个粒子
       }
     }
@@ -70,9 +72,9 @@ class Particle {
    //fill(map(noise(angle), 0, 1, 0, 360), 60, 60, 15);
    //fill(map(noise(angle), 0, 1, 140, 300), 60, 60, 15);
    fill(map(random(10), 0, 10, 0, 10), 89, 95, 15); //大哥配色
-     //fill(map(noise(angle), 0, 1, 0, 300), 60, 60, 15);
-     //fill(map(noise(angle), 0, 1, 0, 100), 60, 60, 15);
-     //fill(map(noise(angle), 0, 1, 210, 360), 60, 60, 15);
+   //fill(map(noise(angle), 0, 1, 0, 300), 60, 60, 15);
+   //fill(map(noise(angle), 0, 1, 0, 100), 60, 60, 15);
+   //fill(map(noise(angle), 0, 1, 210, 360), 60, 60, 15);
    circle(pos.x, pos.y,1);
  }
 

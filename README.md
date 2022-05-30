@@ -8,10 +8,10 @@ Generative art by processing.
 <table>
     <tr>
         <td>
-            <img src="README/renderings.png" alt="renderings" style="width: 50%;" />
+            <img src="README/renderings.png" alt="renderings" style="zoom: 50%;" />
         </td>
         <td>
-            <img src="README/Kyoujurou.png" alt="Kyoujurou" style="width: 100%;" />
+            <img src="README/Kyoujurou.png" alt="Kyoujurou"  />
         </td>
     </tr>
 </table>

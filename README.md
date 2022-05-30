@@ -11,7 +11,7 @@ Generative art by processing.
             <img src="README/renderings.png" alt="renderings" style="zoom: 50%;" />
         </td>
         <td>
-            <img src="README/Kyoujurou.png" alt="Kyoujurou"  />
+            <img src="README/Kyoujurou.png" alt="Kyoujurou"  style="zoom: 100%;"/>
         </td>
     </tr>
 </table>

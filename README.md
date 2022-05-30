@@ -16,14 +16,6 @@ Generative art by processing.
     </tr>
 </table>
 
-
-
-
-
-
-
-
-
 <!--more-->
 
 **说在前面**

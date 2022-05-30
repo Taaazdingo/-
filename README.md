@@ -1,5 +1,5 @@
 # 🔥Kyoujurou🔥
-Generative art by processing.
+Generative art by Processing.
 
 
 

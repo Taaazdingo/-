@@ -5,15 +5,26 @@ Generative art by processing.
 
 之前玩Processing搞出了很像火焰的效果，就很想给大哥做个艺术生成画。但是本人太懒，放了好一段时间，这几天终于在Python作业ddl的淫威下把它赶出来了（但其实先写的Java版本再转成Python😄）。
 
-{% gp 2-2 %}
+<table>
+    <tr>
+        <td>
+            <img src="README/renderings.png" alt="renderings" style="zoom: 16.5%;" />
+        </td>
+        <td>
+            <img src="README/Kyoujurou.png" alt="Kyoujurou" style="zoom: 33%;" />
+        </td>
+    </tr>
+</table>
 
-![renderings](README/renderings.png)
 
-![Kyoujurou](README/Kyoujurou.png){% endgp %}
+
+
+
+
+
+
 
 <!--more-->
-
-{% note info %}
 
 **说在前面**
 
@@ -22,8 +33,6 @@ Generative art by processing.
 首先要非常感谢[おかず](https://note.com/outburst)大佬的开源代码，代码思路其实大部分都是来自于这位大佬。他还做了很多别的艺术生成画，大都很有趣也很好看，推荐去看看！（不过上note网需要一些魔法←_←）
 
 我的代码可以在[仓库](https://github.com/Taz-dingo/Burning-Kyoujurou)看，包括Java版和Python版。
-
-{% endnote %}
 
 ## 原理
 

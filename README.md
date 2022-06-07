@@ -1,5 +1,5 @@
 # 🔥Kyoujurou🔥
-Generative art by Processing.
+燃烧的炼狱杏寿郎，Generative art by Processing.
 
 
 
